@@ -6,4 +6,12 @@ export const DivHome = styled.div`
   height: 100%;
   justify-content: space-evenly;
   align-items: center;
-  padding: 3rem 0;`
+  padding: 3rem 0;
+  
+  @media (max-width: 750px){
+    flex-direction: column;
+    div{
+      text-align: center;
+      width: 100%;
+    }
+  }`

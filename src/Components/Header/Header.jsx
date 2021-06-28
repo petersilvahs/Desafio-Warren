@@ -11,13 +11,13 @@ const Header = () => {
                 <img src={Logo} alt="Icone Warren na header"></img>
             </Link>
 
-            <div>
+            <div className="divB">
                 <Link to="Home">
-                    <p>Home</p>
+                    <button>Home</button>
                 </Link>
 
                 <Link to="/transactions">
-                    <p>Transações</p>
+                    <button>Transações</button>
                 </Link>
             </div>
         </DivHeader>

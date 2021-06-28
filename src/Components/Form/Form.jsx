@@ -11,7 +11,7 @@ const Form = () => {
         <FormDiv>
             <input
                 type="text"
-                placeholder="Encontre a operação realizada"
+                placeholder="Encontra o reusultado da aplicação"
                 onChange={(e) => {
                     global.setSearch(e.target.value);
                 }}
@@ -25,9 +25,9 @@ const Form = () => {
                 placeholder="Status"
             >
                 <option value="">Status</option>
-                <option value="created">Solicitada</option>
+                <option value="created">Solicitado</option>
                 <option value="processing">Processando</option>
-                <option value="processed">Concluída</option>
+                <option value="processed">Concluído</option>
             </select>
         </FormDiv>
     );

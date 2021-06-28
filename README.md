@@ -2,7 +2,7 @@
 
 ## Sobre o Projeto
 
-O objetivo desse projeto é contruir uma plataforma onde o usuário consegue acessa o históricoe filtrar suas transações.
+O objetivo desse projeto é construir uma plataforma onde o usuário consegue acessa o histórico e filtrar suas transações.
 
 ## Sumário 📖
 
@@ -10,6 +10,7 @@ O objetivo desse projeto é contruir uma plataforma onde o usuário consegue ace
 - Tecnologias
 - Requerimentos
 - Como colaborar
+- Design
 - Autor
 
 ## Páginas 📄
@@ -48,7 +49,12 @@ O objetivo desse projeto é contruir uma plataforma onde o usuário consegue ace
 
 - _O site abrirá na sua aba padrão na porta localhost: 3000_
 
+## Design
+
+[![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/file/x8kLtEQ05P0OlFkdvsqwKx/Interface-Warren?node-id=0%3A1)
+
 ## Autor 🧸
+
 <br>
 
 [![Linkedin: PeterSilva](https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/peter-silva-14bb371a2/)](https://www.linkedin.com/in/peter-silva-14bb371a2/)

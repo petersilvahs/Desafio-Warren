@@ -1,23 +1,23 @@
 import React, { useContext, useState } from "react";
+import { GlobalContext } from "../../Global/Global";
 
-import { Modal } from "../Modal/Modal.styles";
-import Container from "./Data.styles";
+import Modal from "../Modal/Modal.styles";
+import DataCont from "./Data.styles";
 
 import moment from "moment";
 import "moment/locale/pt-br";
 
-import { GlobalContext } from "../../Global/Global";
 
-const MainContent = () => {
-    const [selectedTransaction, setSelectedTransaction] = useState({});
+const Data = () => {
+    const [selected, setSelected] = useState({});
 
     const global = useContext(GlobalContext);
 
     const handleClick = (transaction) => {
-        setSelectedTransaction(transaction);
+        setSelected(transaction);
     };
 
-    const capitalize = (str) => {
+    const handle = (str) => {
         if (typeof str !== "string") {
             return "";
         }
@@ -53,7 +53,7 @@ const MainContent = () => {
     };
 
     return (
-        <Container>
+        <DataCont>
             <table className="table table-responsive">
                 <thead>
                     <tr>
@@ -75,8 +75,8 @@ const MainContent = () => {
                                 }}
                             >
                                 <td>{transaction.title}</td>
-                                <td>{capitalize(transaction.description)}</td>
-                                <td>{capitalize(transaction.status)}</td>
+                                <td>{handle(transaction.description)}</td>
+                                <td>{handle(transaction.status)}</td>
                                 <td>{formatingCoin(transaction.amount)}</td>
                                 <td>{moment(transaction.date).format("L")}</td>
                             </tr>
@@ -90,8 +90,8 @@ const MainContent = () => {
                                 }}
                             >
                                 <td>{transaction.title}</td>
-                                <td>{capitalize(transaction.description)}</td>
-                                <td>{capitalize(transaction.status)}</td>
+                                <td>{handle(transaction.description)}</td>
+                                <td>{handle(transaction.status)}</td>
                                 <td>{formatingCoin(transaction.amount)}</td>
                                 <td>{moment(transaction.date).format("L")}</td>
                             </tr>
@@ -100,14 +100,14 @@ const MainContent = () => {
             </table>
             {global.isModalVisible ? (
                 <Modal
-                    dataFrom={selectedTransaction.from}
-                    dataTo={selectedTransaction.to}
-                    dataStatus={selectedTransaction.status}
-                    dataTitle={selectedTransaction.title}
+                    dataFrom={selected.from}
+                    dataTo={selected.to}
+                    dataStatus={selected.status}
+                    dataTitle={selected.title}
                 />
             ) : null}
-        </Container>
+        </DataCont>
     );
 };
 
-export default MainContent;
+export default Data;
