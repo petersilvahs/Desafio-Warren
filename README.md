@@ -1,5 +1,9 @@
 # Desafio Warren
 
+<div align="center">
+<img src="./src/Images/wicon.png">
+</div>
+
 ## Sobre o Projeto
 
 O objetivo desse projeto é construir uma plataforma onde o usuário consegue acessa o histórico e filtrar suas transações.
