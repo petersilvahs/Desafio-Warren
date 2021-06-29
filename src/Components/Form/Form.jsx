@@ -11,7 +11,7 @@ const Form = () => {
         <FormDiv>
             <input
                 type="text"
-                placeholder="Busca"
+                placeholder="Pesquiar"
                 onChange={(e) => {
                     global.setSearchTime(e.target.value);
                 }}

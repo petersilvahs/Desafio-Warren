@@ -23,9 +23,9 @@ const ProgressBar = ({ done }) => {
                 </div>
             </div>
             <div className="statusText">
-                <h4 className="statusP">Solicitada</h4>
+                <h4 className="statusP">Solicitado</h4>
                 <h4 className="statusP">Processando</h4>
-                <h4 className="statusP">Concluída</h4>
+                <h4 className="statusP">Concluído</h4>
             </div>
         </Section>
     );

@@ -6,7 +6,7 @@ const FormDiv = styled.div`
   justify-content: flex-start;
   margin-left: 40rem;
   input {
-    margin: 2rem;
+    margin: 1rem;
     width: 20%;
     border: none;
     border-radius: 8px;

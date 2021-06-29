@@ -34,7 +34,7 @@ export const Modal = ({ dataFrom, dataGoing, dataStatus, dataTitle }) => {
                 )}
 
                 <div>
-                    <h2>Transferindo do</h2>
+                    <h2>Transferindo</h2>
                     <hr />
                     <p>{dataFrom}</p>
                     <h2>Para</h2>

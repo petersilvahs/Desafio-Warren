@@ -43,5 +43,10 @@ export const DivHeader = styled.div`
       width: auto;
       margin: auto;
     }
+    button{
+      position: absolute;
+        top: 0;
+        right: 0;
+    }
   }
 `;

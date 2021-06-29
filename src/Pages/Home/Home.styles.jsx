@@ -7,8 +7,10 @@ export const DivHome = styled.div`
   justify-content: space-evenly;
   align-items: center;
   padding: 3rem 0;
+  margin-top: -50px;
+  margin-bottom: -55px;
   
-  @media (max-width: 750px){
+  @media (max-width: 780px){
     flex-direction: column;
     div{
       text-align: center;
