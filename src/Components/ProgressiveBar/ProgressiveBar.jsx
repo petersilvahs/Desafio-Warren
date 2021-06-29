@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-//styles
 import Section from "./ProgressBar.styles";
 
 const ProgressBar = ({ done }) => {

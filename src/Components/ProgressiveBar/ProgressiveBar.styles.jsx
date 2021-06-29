@@ -44,7 +44,7 @@ const Section = styled.div`
       width: 90%;
     }
     .status {
-      width: 98%;
+      width: 100%;
     }
   }
 `;

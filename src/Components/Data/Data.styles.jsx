@@ -4,6 +4,7 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   margin: 2rem 0;
+  -webkit-border-radius: 10px 20px 30px 40px
   table {
     width: 80%;
     border-collapse: collapse;
@@ -47,8 +48,7 @@ const Container = styled.div`
   tbody tr:hover {
     background-color: #eee;
   }
-  @media (max-width: 767px) {
-    /* Responsive Table */
+  @media (max-width: 770px) {
     .table-responsive {
       display: block;
       position: relative;

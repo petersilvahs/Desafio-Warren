@@ -55,10 +55,24 @@ O objetivo desse projeto é construir uma plataforma onde o usuário consegue ac
 
 ## Design
 
+<div align="center">
+
 [![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/file/x8kLtEQ05P0OlFkdvsqwKx/Interface-Warren?node-id=0%3A1)
 
-## Autor 🧸
+</div>
+
+- Design da área de transferência:
 
 <br>
 
+  <img src="./src/Images/designtrans.png" align="center">
+
+<br>
+
+## Autor 🧸
+
+<div align="center">
+
 [![Linkedin: PeterSilva](https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/peter-silva-14bb371a2/)](https://www.linkedin.com/in/peter-silva-14bb371a2/)
+
+</div>

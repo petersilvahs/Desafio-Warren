@@ -24,11 +24,11 @@ const Data = () => {
         return str.charAt(0).toUpperCase() + str.substr(1);
     };
 
-    const filteredTitle = global.result.filter((value) => {
-        if (global.searchTerm === "") {
+    const filteredTitle = global.answer.filter((value) => {
+        if (global.searchTime === "") {
             return value;
         } else if (
-            value.title.toLowerCase().includes(global.searchTerm.toLowerCase())
+            value.title.toLowerCase().includes(global.searchTime.toLowerCase())
         ) {
             return value;
         } else {
@@ -36,10 +36,10 @@ const Data = () => {
         }
     });
 
-    const filteredStatus = global.result.filter((value) => {
-        if (global.option === "") {
+    const filteredStatus = global.answer.filter((value) => {
+        if (global.preferences === "") {
             return value;
-        } else if (value.status.includes(global.option)) {
+        } else if (value.status.includes(global.preferences)) {
             return value;
         } else {
             return null;
@@ -65,7 +65,7 @@ const Data = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    {global.searchTerm !== ""
+                    {global.searchTime !== ""
                         ? filteredTitle.map((transaction) => (
                             <tr
                                 key={transaction.id}
@@ -98,7 +98,7 @@ const Data = () => {
                         ))}
                 </tbody>
             </table>
-            {global.isModalVisible ? (
+            {global.modalAnswer ? (
                 <Modal
                     dataFrom={selected.from}
                     dataTo={selected.to}

@@ -3,12 +3,10 @@ import { IconContext } from "react-icons/lib";
 import { RiCloseCircleLine } from "react-icons/ri";
 
 import Container from "../Modal/Modal.styles";
-
 import ProgressBar from "../PreLoader/PreLoader";
+import  GlobalContext  from "../../Global/Global";
 
-import { GlobalContext } from "../../Global/Global";
-
-export const Modal = ({ dataFrom, dataTo, dataStatus, dataTitle }) => {
+export const Modal = ({ dataFrom, dataGoing, dataStatus, dataTitle }) => {
     const global = useContext(GlobalContext);
 
     const handleOutsideClick = (e) => {
@@ -41,7 +39,7 @@ export const Modal = ({ dataFrom, dataTo, dataStatus, dataTitle }) => {
                     <p>{dataFrom}</p>
                     <h2>Para</h2>
                     <hr />
-                    <p>{dataTo}</p>
+                    <p>{dataGoing}</p>
                 </div>
             </div>
         </Container>

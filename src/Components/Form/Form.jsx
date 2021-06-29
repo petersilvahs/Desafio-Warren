@@ -11,16 +11,16 @@ const Form = () => {
         <FormDiv>
             <input
                 type="text"
-                placeholder="Encontra o reusultado da aplicação"
+                placeholder="Busca"
                 onChange={(e) => {
-                    global.setSearch(e.target.value);
+                    global.setSearchTime(e.target.value);
                 }}
             />
 
             <select
                 id="category"
                 onChange={(event) => {
-                    global.setOption(event.target.value);
+                    global.setPreferences(event.target.value);
                 }}
                 placeholder="Status"
             >
