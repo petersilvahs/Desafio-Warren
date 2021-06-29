@@ -101,7 +101,7 @@ const Data = () => {
             {global.modalAnswer ? (
                 <Modal
                     dataFrom={selected.from}
-                    dataGoing={selected.to}
+                    dataGoing={selected.going}
                     dataStatus={selected.status}
                     dataTitle={selected.title}
                 />

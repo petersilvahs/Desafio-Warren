@@ -7,6 +7,7 @@
 ## Sobre o Projeto
 
 O objetivo desse projeto é construir uma plataforma onde o usuário consegue acessa o histórico e filtrar suas transações.
+Link para aplicão: https://dazzling-neumann-d682c7.netlify.app/
 
 ## Sumário 📖
 
