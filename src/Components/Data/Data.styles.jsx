@@ -43,7 +43,7 @@ const Container = styled.div`
   }
   tbody td {
     padding: 0.5em;
-    border-bottom: 1px solid var(--grayline);
+    border-bottom: 1px solid var(--gray);
   }
   tbody tr:hover {
     background-color: #eee;
@@ -82,7 +82,7 @@ const Container = styled.div`
       display: inline-block;
     }
     .table td:last-child {
-      border-right: #999999 solid 1px;
+      border-right: #aaa7a7 solid 1px;
     }
   }
 `;

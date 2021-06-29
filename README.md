@@ -1,13 +1,16 @@
 # Desafio Warren
 
 <div align="center">
-<img src="./src/Images/wicon.png">
+<img src="./src/Images/alabana.png">
 </div>
 
 ## Sobre o Projeto
 
 O objetivo desse projeto é construir uma plataforma onde o usuário consegue acessa o histórico e filtrar suas transações.
 Link para aplicão: https://dazzling-neumann-d682c7.netlify.app/
+
+<h3 align="center">Home</h3>
+<img src="./src/Images/homereadme.png" align="center">
 
 ## Sumário 📖
 
